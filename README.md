@@ -298,3 +298,10 @@ is not evidence of a completed hosted run. No coverage percentage or CI badge is
 
 MIT licensed. Author: Fatima Humbatova. This repository records a learning and
 engineering project; it makes no claim of professional forensic validation.
+
+## Evidence Handling Notes
+
+- Work on copies of evidence rather than altering original files.
+- Use SHA-256 comparisons to help detect changes between recorded observations.
+- Treat filesystem timestamps as investigative leads, not standalone proof of when an event occurred.
+- Document the collection environment, analysis steps, and any limitations when reporting findings.
