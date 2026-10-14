@@ -18,6 +18,7 @@ This is a record of executed local checks, not a coverage claim or certification
 
 The commands below were run using the project's virtual environment, except for
 the wheel-install check, which used a separate empty virtual environment.
+| Hosted GitHub Actions matrix | All six jobs passed: Ubuntu and macOS × Python 3.11, 3.12, and 3.13 (October 14, 2026) |
 
 | Command or procedure | Observed result |
 | --- | --- |
@@ -55,13 +56,8 @@ metadata format were also corrected before the final checks.
 
 ## Not verified here
 
-- Hosted GitHub Actions: the workflow exists, but this project was not published.
-- Execution on macOS, native Windows, WSL, Python 3.11 or Python 3.13. The CI
-  matrix is configured for Linux/macOS and Python 3.11–3.13; native Windows is
-  explicitly unsupported. Local successful execution was on Linux/Python 3.12.
-- Privileged adversarial mount changes, network filesystems, power-loss recovery,
-  millions of files, filesystem-specific timestamp accuracy, or forensic admissibility.
-- External audit anchoring, independent forensic validation, and test coverage
-  percentages. None is claimed.
+- Native Windows and WSL. Native Windows is explicitly unsupported; WSL itself has not been validated.
+- Privileged adversarial mount changes, network filesystems, power-loss recovery, millions of files, filesystem-specific timestamp accuracy, or forensic admissibility.
+- External audit anchoring and independent forensic validation. No test coverage percentage is claimed.
 
 These limits are separate from the implemented and exercised CLI behavior.
