@@ -4,6 +4,7 @@ import io
 import json
 import os
 import re
+import sys
 from urllib.parse import unquote_to_bytes
 
 import pytest
@@ -124,7 +125,7 @@ def test_paths_round_trip_without_absolute_paths_or_csv_formulas(workspace):
     ]
     for name in names:
         (source / name).write_text("synthetic")
-    if os.name == "posix":
+    if sys.platform.startswith("linux"):
         raw_name = b"nonutf8-\xff"
         fd = os.open(
             os.fsencode(source) + b"/" + raw_name, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600
