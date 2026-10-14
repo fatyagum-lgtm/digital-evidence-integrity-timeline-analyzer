@@ -1,0 +1,83 @@
+{
+  "after_id": 2,
+  "before_id": 1,
+  "case_id": "DEMO-001",
+  "comparison_id": 1,
+  "complete": true,
+  "created_utc": "2026-10-14T16:32:07.571885412Z",
+  "issues": [],
+  "kind": "comparison",
+  "path_encoding": "percent-encoded filesystem bytes per segment; '/' separates segments",
+  "report_schema_version": 1,
+  "rows": [
+    {
+      "after_sha256": "588371822f96abb92c814a3bcaa21becbc58a6a3752aeedd64c6a63a6392fe0f",
+      "after_size": 29,
+      "after_status": "ok",
+      "before_sha256": null,
+      "before_size": null,
+      "before_status": null,
+      "metadata_changed": null,
+      "path": "added.txt",
+      "reason": null,
+      "status": "added"
+    },
+    {
+      "after_sha256": "7aa8f633273a59588b1bf3fecbf4a6ccd88f0a1fa4668ba40e527074d68a122a",
+      "after_size": 38,
+      "after_status": "ok",
+      "before_sha256": "7aa8f633273a59588b1bf3fecbf4a6ccd88f0a1fa4668ba40e527074d68a122a",
+      "before_size": 38,
+      "before_status": "ok",
+      "metadata_changed": true,
+      "path": "keep.txt",
+      "reason": null,
+      "status": "unchanged"
+    },
+    {
+      "after_sha256": "6c07d28a1d8956c7a403dde9313a683f04873ff8b52ebb21de9554ed72477ddd",
+      "after_size": 37,
+      "after_status": "ok",
+      "before_sha256": "6c07d28a1d8956c7a403dde9313a683f04873ff8b52ebb21de9554ed72477ddd",
+      "before_size": 37,
+      "before_status": "ok",
+      "metadata_changed": true,
+      "path": "nested/session.log",
+      "reason": null,
+      "status": "unchanged"
+    },
+    {
+      "after_sha256": "8bf0cce36f8c387234b236a0ae9c66dcea870010df7190c43938368e4eb34829",
+      "after_size": 29,
+      "after_status": "ok",
+      "before_sha256": "a411b0bc14daba4cff77502cd91db3fe57af2addd5e21695042880d7c833097c",
+      "before_size": 27,
+      "before_status": "ok",
+      "metadata_changed": true,
+      "path": "notes.txt",
+      "reason": null,
+      "status": "modified"
+    },
+    {
+      "after_sha256": null,
+      "after_size": null,
+      "after_status": null,
+      "before_sha256": "754ae2eb3a0a349e34ca74a666f70795bb75236edfcaf34c29c9b67a01067228",
+      "before_size": 45,
+      "before_status": "ok",
+      "metadata_changed": null,
+      "path": "removed.txt",
+      "reason": null,
+      "status": "removed"
+    }
+  ],
+  "summary": {
+    "added": 1,
+    "modified": 1,
+    "removed": 1,
+    "unchanged": 2,
+    "unreadable": 0
+  },
+  "tool_version": "1.0.0",
+  "warning": "Educational metadata observations, not proof of event time or forensic chain of custody."
+}

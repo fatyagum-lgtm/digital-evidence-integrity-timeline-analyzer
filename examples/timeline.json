@@ -1,0 +1,163 @@
+{
+  "report_schema_version": 1,
+  "tool_version": "1.0.0",
+  "kind": "timeline",
+  "case_id": "DEMO-001",
+  "path_encoding": "percent-encoded filesystem bytes per segment; '/' separates segments",
+  "warning": "Educational metadata observations, not proof of event time or forensic chain of custody.",
+  "snapshot_id": 2,
+  "started_utc": "2026-10-14T16:32:07.482788091Z",
+  "finished_utc": "2026-10-14T16:32:07.483055973Z",
+  "complete": true,
+  "summary": {
+    "events": 12,
+    "issues": 0
+  },
+  "rows": [
+    {
+      "path": "keep.txt",
+      "event_type": "ctime",
+      "timestamp_ns": 1791995527321272203,
+      "timestamp_utc": "2026-10-14T16:32:07.321272203Z",
+      "meaning": "metadata_change_posix",
+      "file_status": "ok",
+      "sha256": "7aa8f633273a59588b1bf3fecbf4a6ccd88f0a1fa4668ba40e527074d68a122a",
+      "size": 38,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "keep.txt",
+      "event_type": "mtime",
+      "timestamp_ns": 1791995527321272203,
+      "timestamp_utc": "2026-10-14T16:32:07.321272203Z",
+      "meaning": "content_modification",
+      "file_status": "ok",
+      "sha256": "7aa8f633273a59588b1bf3fecbf4a6ccd88f0a1fa4668ba40e527074d68a122a",
+      "size": 38,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "nested/session.log",
+      "event_type": "ctime",
+      "timestamp_ns": 1791995527321388608,
+      "timestamp_utc": "2026-10-14T16:32:07.321388608Z",
+      "meaning": "metadata_change_posix",
+      "file_status": "ok",
+      "sha256": "6c07d28a1d8956c7a403dde9313a683f04873ff8b52ebb21de9554ed72477ddd",
+      "size": 37,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "nested/session.log",
+      "event_type": "mtime",
+      "timestamp_ns": 1791995527321388608,
+      "timestamp_utc": "2026-10-14T16:32:07.321388608Z",
+      "meaning": "content_modification",
+      "file_status": "ok",
+      "sha256": "6c07d28a1d8956c7a403dde9313a683f04873ff8b52ebb21de9554ed72477ddd",
+      "size": 37,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "keep.txt",
+      "event_type": "atime",
+      "timestamp_ns": 1791995527413180364,
+      "timestamp_utc": "2026-10-14T16:32:07.413180364Z",
+      "meaning": "access_before_hash_read",
+      "file_status": "ok",
+      "sha256": "7aa8f633273a59588b1bf3fecbf4a6ccd88f0a1fa4668ba40e527074d68a122a",
+      "size": 38,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "nested/session.log",
+      "event_type": "atime",
+      "timestamp_ns": 1791995527413180364,
+      "timestamp_utc": "2026-10-14T16:32:07.413180364Z",
+      "meaning": "access_before_hash_read",
+      "file_status": "ok",
+      "sha256": "6c07d28a1d8956c7a403dde9313a683f04873ff8b52ebb21de9554ed72477ddd",
+      "size": 37,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "notes.txt",
+      "event_type": "atime",
+      "timestamp_ns": 1791995527413180364,
+      "timestamp_utc": "2026-10-14T16:32:07.413180364Z",
+      "meaning": "access_before_hash_read",
+      "file_status": "ok",
+      "sha256": "8bf0cce36f8c387234b236a0ae9c66dcea870010df7190c43938368e4eb34829",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "added.txt",
+      "event_type": "atime",
+      "timestamp_ns": 1791995527434181739,
+      "timestamp_utc": "2026-10-14T16:32:07.434181739Z",
+      "meaning": "access_before_hash_read",
+      "file_status": "ok",
+      "sha256": "588371822f96abb92c814a3bcaa21becbc58a6a3752aeedd64c6a63a6392fe0f",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "added.txt",
+      "event_type": "ctime",
+      "timestamp_ns": 1791995527441130797,
+      "timestamp_utc": "2026-10-14T16:32:07.441130797Z",
+      "meaning": "metadata_change_posix",
+      "file_status": "ok",
+      "sha256": "588371822f96abb92c814a3bcaa21becbc58a6a3752aeedd64c6a63a6392fe0f",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "added.txt",
+      "event_type": "mtime",
+      "timestamp_ns": 1791995527441130797,
+      "timestamp_utc": "2026-10-14T16:32:07.441130797Z",
+      "meaning": "content_modification",
+      "file_status": "ok",
+      "sha256": "588371822f96abb92c814a3bcaa21becbc58a6a3752aeedd64c6a63a6392fe0f",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "notes.txt",
+      "event_type": "ctime",
+      "timestamp_ns": 1791995527441169636,
+      "timestamp_utc": "2026-10-14T16:32:07.441169636Z",
+      "meaning": "metadata_change_posix",
+      "file_status": "ok",
+      "sha256": "8bf0cce36f8c387234b236a0ae9c66dcea870010df7190c43938368e4eb34829",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    },
+    {
+      "path": "notes.txt",
+      "event_type": "mtime",
+      "timestamp_ns": 1791995527441169636,
+      "timestamp_utc": "2026-10-14T16:32:07.441169636Z",
+      "meaning": "content_modification",
+      "file_status": "ok",
+      "sha256": "8bf0cce36f8c387234b236a0ae9c66dcea870010df7190c43938368e4eb34829",
+      "size": 29,
+      "error": null,
+      "precision": "nanoseconds"
+    }
+  ],
+  "issues": []
+}
